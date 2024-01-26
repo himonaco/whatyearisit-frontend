@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 @keyframes colorchange {
     0%   { color: blue; }
     25%  { color: green; }
@@ -6,8 +14,9 @@
 }
 
 #year {
-    font-size: 50px;  
+    font-size: 50px;
     text-align: center;
-    color: blue; /* initial color */
-    animation: colorchange 5s infinite; /* animation name, duration, and iteration count */
+    font-weight: bold;  /* makes the text bold */
+    color: blue;
+    animation: colorchange 5s infinite;
 }
