@@ -1,0 +1,13 @@
+@keyframes colorchange {
+    0%   { color: blue; }
+    25%  { color: green; }
+    50%  { color: red; }
+    100% { color: orange; }
+}
+
+#year {
+    font-size: 50px;  
+    text-align: center;
+    color: blue; /* initial color */
+    animation: colorchange 5s infinite; /* animation name, duration, and iteration count */
+}
